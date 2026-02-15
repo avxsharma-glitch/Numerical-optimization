@@ -1,57 +1,140 @@
-# Numerical-optimization
-Numerical Optimization practical implementation using Python libraries in Jupyter Notebook, covering gradient descent, root finding, constrained optimization, and real-world problem solving
+# 📊 Numerical Optimization using Python
 
-This repository contains practical implementations of numerical optimization techniques using Python in Jupyter Notebook. It demonstrates fundamental optimization algorithms and their applications in solving mathematical and real-world problems.
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Status](https://img.shields.io/badge/Status-Active-success)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-The objective of this project is to understand computational optimization methods, analyze convergence behavior, and apply numerical techniques to solve real-world mathematical problems.
+> Practical implementation of core numerical optimization techniques using Python and Jupyter Notebook.
 
-**📌 Objectives**
+---
 
-Understand core concepts of numerical optimization
+## 📌 Overview
 
-Implement optimization algorithms using Python
+This repository contains practical implementations of numerical optimization algorithms used in scientific computing, machine learning, and engineering applications.
 
-Visualize convergence behavior
+The project focuses on:
 
-Compare different optimization methods
+- Understanding optimization algorithms  
+- Analyzing convergence behavior  
+- Studying numerical error and stability  
+- Applying Python libraries for computational mathematics  
 
-Apply optimization to real-world mathematical problems
+All experiments are implemented using Jupyter Notebook for clarity and reproducibility.
 
-**🛠️ Technologies Used**
-Python 3
-Jupyter Notebook
-NumPy
-SciPy
-Matplotlib
+---
 
-**📚 Topics Covered**
-Root Finding Methods
-Bisection Method
-Newton-Raphson Method
-Secant Method
-Unconstrained Optimization
-Gradient Descent
-Steepest Descent Method
-Convergence Analysis
-Constrained Optimization
-Lagrange Multipliers (conceptual understanding)
-SciPy optimization with constraints
-Linear Optimization
-Linear Programming using scipy.optimize
-Visualization
-Function plotting
-Convergence curves
-Error analysis graphs
+## 🚀 Features
 
-**🎯 Learning Outcomes**
+- Root Finding Algorithms (Bisection, Newton-Raphson, Secant)
+- Gradient Descent Implementation
+- Linear Programming using SciPy
+- Constrained Optimization Techniques
+- Convergence Visualization
+- Error Analysis
 
-After completing this practical, I will be able to:
-Implement optimization algorithms from scratch
-Use Python libraries for efficient numerical computation
-Analyze accuracy and convergence   
+---
 
-Apply optimization techniques in machine learning and engineering problems
+## 🛠️ Tech Stack
 
-📌 Author
+- Python  
+- NumPy  
+- SciPy  
+- Matplotlib  
+- Jupyter Notebook  
 
-Aryan Vishwakarma
+---
+
+## 📂 Project Structure
+
+```
+Numerical-Optimization/
+│
+├── notebooks/
+│   ├── 01_root_finding.ipynb
+│   ├── 02_gradient_descent.ipynb
+│   ├── 03_linear_programming.ipynb
+│   └── 04_constrained_optimization.ipynb
+│
+├── src/
+│   ├── root_finding.py
+│   ├── gradient_descent.py
+│   ├── linear_programming.py
+│   └── constrained_optimization.py
+│
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR-USERNAME/Numerical-Optimization.git
+```
+
+Navigate into the folder:
+
+```bash
+cd Numerical-Optimization
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Launch Jupyter Notebook:
+
+```bash
+jupyter notebook
+```
+
+---
+
+## 📦 Requirements
+
+```
+numpy
+scipy
+matplotlib
+jupyter
+```
+
+---
+
+## 📈 Applications
+
+Numerical optimization is widely used in:
+
+- Machine Learning (Loss Minimization)
+- Engineering Design
+- Financial Modeling
+- Operations Research
+- Scientific Simulations
+
+---
+
+## 🎯 Learning Outcomes
+
+After completing this practical, you will be able to:
+
+- Implement optimization algorithms from scratch  
+- Use Python libraries for numerical computation  
+- Analyze convergence and numerical stability  
+- Apply optimization techniques to real-world problems  
+
+---
+
+## 👨‍💻 Author
+
+**Aryan Vishwakarma**
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
