@@ -72,7 +72,7 @@ Numerical-Optimization/
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/Numerical-Optimization.git
+git clone (https://github.com/avxsharma-glitch/Numerical-optimization).git
 ```
 
 Navigate into the folder:
